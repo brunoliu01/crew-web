@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*empieza el header*/
+header {
+    width: 100%;
+    height: 100px;
+    background: black;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo {
+    width: 290px;
+}
+
+.slider {
+    width: 100%;
+    height: 85vh;
+    background-image: url('Assets/Img/header-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.slider img {
+    width: 550px;
+    margin: auto;
+}
+
+
+.container {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+}
+
+.side-menu ul {
+    display: flex;
+    height: 60px;
+}
+
+.side-menu ul li {
+    width: 110px;
+    text-align: center;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transform: skewX(158deg);
+    transition: 0.5s;
+}
+
+.side-menu ul li:hover {
+    background: white;
+    transition: 0.5s;
+}
+
+.side-menu ul li:hover .item-nav {
+    color: black;
+    transition: 0.5s;
+}
+
+
+.side-menu ul li a { 
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 40px;
+    transform: skewX(-158deg);
+}
+
+/*seccion de quienes somos*/
+.img-principal-container {
+    z-index: 11;
+}
+
+.principal {
+    width: 100%;
+    height: 110vh;
+}
+.quienes-somos-container {
+    display: flex;
+    align-items: center;
+}
+
+.quienes-somos {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-quienes-somos {
+    z-index: 1;
+    width: 400px;
+    height: 200px;
+    background: white;
+    margin: 25px;
+}
+
+.quien-text {
+    color: #e9e067;  
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: vold;
+}
+
+.pex1 {
+    width: 500px;
+    height: 500px;
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background: #e9e067;
+    margin-top: 10px;
+}
+
+/*sección de nuestros servicios*/
+
+.nuestros-servicios {
+    background-image: url("../dybcrew/img/pc2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-nuestros-servicios {
+   z-index: 1;
+    width: 400px;
+    height: 200px;
+    margin: 25px; 
+    color: white; 
+}
+
+.img-mod {
+    height: 60px;
+    width: 60px;
+}
+.cont-sec {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    opacity: .7;
+}
+
+.nuestros-servicios-container {
+    display: flex;
+    align-items: center;   
+}
+
+.nuestros-servicios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-circle {
+    margin: 30px;
+} 
+
+.img-mod:hover {
+    transition: .5s;
+    transform: scale(1.3);
+}  
+
+/* empieza la sección de portafolio */
+
+.portafolio {
+    background-image: url("../dybcrew/img/portafolio-fondo.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-portafolio {
+    width: 100vh;
+    height: 80vh;
+    background: white;
+    opacity: .7;
+    align-items: center;
+} 
+
+.img-portafolio {
+    width: 100vh;
+    height: 80vh;
+    background: black;
+    opacity: .9;
+}
+
+.portafolio-container {
+    display: flex;
+    margin: auto;
+    
+}
+
+.container-img-portafolio {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-text {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+
+.img-port {
+    width: 240px;
+    height: 235px;
+    background: black;
+    margin: 15px;
+}
+
+.img-galeria {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-galeria:hover {
+    transition: .3s;
+    transform: scale(1.2);
+}  
