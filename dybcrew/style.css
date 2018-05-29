@@ -113,6 +113,7 @@ header .container .logo {
     position: absolute;
     font-size: 50px;
     font-family: sans-serif;
+    font-weight: bold;
 
 }
 
@@ -291,3 +292,42 @@ h1 {
     cursor: pointer;
     filter: grayscale(90%);
 }  
+
+/* empieza la sección de nuestro equipo */
+
+.team {
+    background-image: url("../dybcrew/img/team.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-team {
+    width: 100%;
+    height: auto;
+    opacity: .9;
+    display: flex;
+    align-items: center;
+}
+
+.img-foto-team {
+    width: 180px;
+    height: 230px;
+    background: black;
+    margin: 15px;
+}
+
+.text-nuestro-equipo {
+   z-index: 1;
+    width: 400px;
+    height: 200px; 
+    color: white; 
+}
