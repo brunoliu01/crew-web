@@ -12,7 +12,7 @@ header {
     display: flex;
     align-items: center;
     position: fixed;
-    z-index: 10;
+    z-index: 15;
 
 }
 
@@ -24,6 +24,12 @@ header .container {
 
 header .container .logo {
     width: 290px;
+}
+
+.img-logo {
+    width: 155px;
+    height: 30px;
+    z-index: 54;
 }
 
 .slider {
@@ -84,11 +90,34 @@ header .container .logo {
     padding: 40px;
     transform: skewX(-158deg);
 }
+/* home */
+
+.img-principal-container {
+    background-image: url("../dybcrew/img/foto-home.jpg");
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-home p {
+    width: 50%;
+    height: 500px;
+    font-size: 30px;
+    z-index: 99;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 25% 0 0 10%;
+    position: absolute;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+
 
 /*seccion de quienes somos*/
-.img-principal-container {
-    z-index: 11;
-}
 
 .principal {
     width: 100%;
@@ -152,7 +181,7 @@ h1 {
    z-index: 1;
     width: 400px;
     height: 200px;
-    margin: 25px; 
+    margin: 100px; 
     color: white; 
 }
 
@@ -187,12 +216,13 @@ h1 {
 .img-mod:hover {
     transition: .5s;
     transform: scale(1.3);
+    cursor: pointer;
 }  
 
 /* empieza la sección de portafolio */
 
 .portafolio {
-    background-image: url("../dybcrew/img/portafolio-fondo.jpg");
+    background-image: url("../dybcrew/img/work-portafolio.jpg");
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -223,9 +253,12 @@ h1 {
 }
 
 .container-img-portafolio {
+    margin: auto;
+    margin-top: 5%;
+}
+.file-1, .file-2{
     display: flex;
     justify-content: center;
-    margin: auto;
 }
 
 .container-text {
@@ -238,8 +271,8 @@ h1 {
 
 
 .img-port {
-    width: 240px;
-    height: 235px;
+    width: 200px;
+    height: 200px;
     background: black;
     margin: 15px;
 }
@@ -254,4 +287,7 @@ h1 {
 .img-galeria:hover {
     transition: .3s;
     transform: scale(1.2);
+    background: : #e9e067;
+    cursor: pointer;
+    filter: grayscale(90%);
 }  
