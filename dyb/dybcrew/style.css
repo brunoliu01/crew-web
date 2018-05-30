@@ -512,3 +512,7 @@ input[placeholder], [placeholder], *[placeholder] {
 .container-text-info {
     margin-top: 20%;
 }
+
+form {
+    margin-top: 30%;
+}
