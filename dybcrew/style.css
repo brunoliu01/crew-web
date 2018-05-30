@@ -89,7 +89,9 @@ header .container .logo {
     font-family: sans-serif;
     padding: 40px;
     transform: skewX(-158deg);
+    font-size: 13px;
 }
+
 /* home */
 
 .img-principal-container {
@@ -124,6 +126,7 @@ header .container .logo {
     width: 100%;
     height: 110vh;
 }
+
 .quienes-somos-container {
     display: flex;
     align-items: center;
@@ -190,6 +193,7 @@ h1 {
     height: 60px;
     width: 60px;
 }
+
 .cont-sec {
     display: flex;
     align-items: center;
@@ -243,7 +247,7 @@ h1 {
 .img-portafolio {
     width: 100vh;
     height: 80vh;
-    background: black;
+    background: #2f2b30;
     opacity: .9;
 }
 
@@ -255,8 +259,9 @@ h1 {
 
 .container-img-portafolio {
     margin: auto;
-    margin-top: 5%;
+    margin-top: 8%;
 }
+
 .file-1, .file-2{
     display: flex;
     justify-content: center;
@@ -319,8 +324,8 @@ h1 {
 }
 
 .img-foto-team {
-    width: 180px;
-    height: 230px;
+    width: 150px;
+    height: 180px;
     background: black;
     margin: 15px;
 }
@@ -330,4 +335,180 @@ h1 {
     width: 400px;
     height: 200px; 
     color: white; 
+}
+
+/* acá empieza el contacto */
+
+/*.contacto {
+    background-image: url("../dybcrew/img/contacto.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img-mod {
+    height: 60px;
+    width: 60px;
+}
+
+.cont-sec-2 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    padding-left: 200px;
+    opacity: .7;
+}
+
+.contacto-container {
+    display: flex;
+    align-items: center;  
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-circle {
+    margin: 30px;
+} 
+
+.img-mod:hover {
+    transition: .5s;
+    transform: scale(1.3);
+    cursor: pointer;
+}  
+
+
+
+.container-text-info p {
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+
+     */
+
+.contacto-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    background: black
+}
+
+.fila-a {
+    width: 100%;
+    background: black;
+}
+
+.fila-a-container {
+   z-index: 1;
+    width: 400px;
+    height: 200px;
+    color: white; 
+    background: black;
+    margin: auto;
+}
+
+.fila-b {
+    background-image: url("../dybcrew/img/contacto.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formulario {
+    width: 100%;
+    height: 454px;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'lato','sans-serif';
+    font-weight: inherit;
+    font-weight: bold;
+}
+
+#boton {
+    background: transparent;
+    color: white;
+    padding: 20px;
+    border:0;
+}
+
+#boton:hover {
+    cursor: pointer;
+    color: black;
+    transition: 2s;
+    background: white;
+}
+
+.loginbox{
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+
+
+.loginbox2 {
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+}
+
+::placeholer {
+    color: red;
+}
+
+
+input[placeholder], [placeholder], *[placeholder] {
+   color: white !important;
+}
+
+*::-webkit-input-placeholder {
+   
+    color: white;
+} 
+
+.info-change {
+    color: #e9e067;
+}
+
+.container-text-info {
+    margin-top: 20%;
 }

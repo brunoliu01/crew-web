@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no,  initial-scale=1.0, maximum-scale=1-0, minimun-scale=1.0">
     <meta charset="utf-8">
 	<title>DyBcrew</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <!-- empieza el header -->
 	<header>
         <div class="container">
             <div class="logo">
@@ -35,6 +37,7 @@
             </div>
         </div>
     </header>
+    <!-- empieza portada del home -->
     <section class="img-principal">
     	<div class="img-principal-container">
     		<div class="text-home">
@@ -57,6 +60,7 @@
 			</div>
     	</div>
     </section>
+    <!-- empieza sección de servicios -->
     <section class="nuestros-servicios">
     	<div class="nuestros-servicios-container">
     		  <div class="text-nuestros-servicios">
@@ -90,6 +94,7 @@
     		</div>
     	</div>
     </section>
+    <!-- empieza sección de portafolio -->
     <section class="portafolio">
     	<div class="portafolio-container">
     		 <div class="text-portafolio">
@@ -121,6 +126,7 @@
     		 </div>
     	</div>
     </section>
+    <!-- empieza sección de nuestro team -->
     <section class="team">
         <div class="team-container">
              <div class="text-nuestro-equipo">
@@ -156,5 +162,33 @@
             </div>
         </div>
     </section>
+    <section class="contacto">
+        <div class="contacto-container">
+            <div class="fila-a">
+                    <div class="fila-a-container">
+                        <h1><span class="quien-text">CONTÁCTATE </span><br> CON NOSOTROS</h1>
+                        <div class="line"></div>
+                        <div class="container-text-info">
+                         <p><span class="info-change">EMAIL</span><br>brunoliu19@gmail.com</p>
+                         <p><span class="info-change">TELÉFONO</span><br>987541389</p> 
+                         </div>
+                    </div>  
+              </div>
+            <div class="fila-b">
+                <div class="cont-sec-2">
+                    <div class="formulario">
+                        <form name="formW" >
+                            <input class="loginbox" type="text" name="nombre" placeholder="Nombre">
+                            <input class="loginbox" type="text" name="correo" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Correo">
+                            <input class="loginbox" type="number" name="telefono"  placeholder="Teléfono">
+                            <textarea class="loginbox2" name="mensaje" placeholder="Escribe aquí tu idea"></textarea>
+                            <input class="loginbox" type="button" value="enviar" id="boton" onclick="valida();" >
+                        </form>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
