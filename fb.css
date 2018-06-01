@@ -24,31 +24,56 @@ div.video-content video {
 }
 
 .cont {
-	background: black;
+
 	width: auto;
 	height: auto;
 	opacity: .7;
 	position: absolute;
 }
 
+.cont a {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container-cont {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
       #loginfacebook{
             color: #000;
             padding: 10px;
-            background-color: blue;
+            background-color: white;
             cursor: pointer;
             border-radius: 7px;
-            font-family: arial;
-            font-size: 12px;
+           
         }
         #logoutfacebook{
             color: #000;
             padding: 10px;
             background-color: chocolate;
             cursor: pointer;
-            border-radius: 7px;
+            border-radius: 5px;
             font-family: arial;
             font-size: 12px;
             display: none;
         }
 
+.item-nav {
+           color: #000;
+            padding: 10px;
+            background-color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-family: arial;
+            font-size: 12px;
+            text-decoration: none;
+            margin: 20px;
+}
