@@ -1,6 +1,5 @@
 
 
-
 function valida() {
 	if (document.formW.nombre.value.length==0) {
 		alert("Recuerde que tiene que escribir su nombre")
@@ -33,4 +32,11 @@ function valida() {
 	alert("muchas gracias por enviar el formulario");
 	document.formW.submit();
 	}
+
+window.onload = function(){
+	var contenedor = document.getElementById('contenedor_carga');
+
+	contenedor.style.visibility ='hidden';
+	contenedor.style.opacity = '0';
+}
 
