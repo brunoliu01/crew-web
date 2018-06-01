@@ -32,7 +32,7 @@ div.video-content video {
 }
 
 .cont a {
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -76,4 +76,16 @@ div.video-content video {
             font-size: 12px;
             text-decoration: none;
             margin: 20px;
+}
+
+#loginfacebook:hover {
+    background: #3b5998;
+    color: white;
+     transition: .6s;
+}
+
+.item-nav:hover {
+    background: black;
+    color: white;
+     transition: .3s;
 }

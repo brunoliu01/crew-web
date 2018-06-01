@@ -468,3 +468,7 @@ input[placeholder], [placeholder], *[placeholder] {
 form {
     margin-top: 30%;
 }
+
+p {
+    font-family: sans-serif;
+}
