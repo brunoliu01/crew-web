@@ -52,7 +52,7 @@ div.video-content video {
             padding: 10px;
             background-color: white;
             cursor: pointer;
-            border-radius: 7px;
+
            
         }
         #logoutfacebook{
@@ -60,7 +60,6 @@ div.video-content video {
             padding: 10px;
             background-color: chocolate;
             cursor: pointer;
-            border-radius: 5px;
             font-family: arial;
             font-size: 12px;
             display: none;
@@ -71,7 +70,6 @@ div.video-content video {
             padding: 10px;
             background-color: white;
             cursor: pointer;
-            border-radius: 5px;
             font-family: arial;
             font-size: 12px;
             text-decoration: none;
