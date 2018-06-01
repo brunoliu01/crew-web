@@ -120,6 +120,19 @@ header .container .logo {
 
 }
 
+.text-home {
+   
+    animation-name: movimiento;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+@keyframes movimiento {
+    from { transform: translateX(900px) }
+    to { transform: translateX(-40px) }
+}
+
+
 
 /*seccion de quienes somos*/
 
