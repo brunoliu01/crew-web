@@ -384,6 +384,10 @@ h1 {
     margin: 0;
 }
 
+.space {
+    margin-top: 15px;
+}
+
 form {
     width: 450px;
     margin: auto;
